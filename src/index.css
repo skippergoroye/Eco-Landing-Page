@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+.hero-globe {
+    @apply absolute left-10 md:left-0 top-0 w-screen lg:w-[600px] h-[400px] bg-pattern-2 bg-cover bg-center overflow-hidden;
+}
