@@ -6,9 +6,9 @@ function App() {
       {/* <Navbar /> */}
       {/* <Hero /> */}
       {/* <Org /> */}
-      {/* <ComingSoon /> */}
-      {/* <Faqs /> */}
-      {/* <Subscribe /> */}
+      <ComingSoon />
+      <Faqs />
+      <Subscribe />
       <Footer />
     </>
   );
