@@ -13,10 +13,10 @@ export default function Subscribe() {
             Want to know about what we’re up to, news about Africa, and updates
             with our app? Sign up for our newsletter!
           </p>
-          <div className="flex justify-center items-center gap-2">
-            <div className="relative mt-6">
+          <div className="flex justify-center items-center gap-2 lg:w-[450px] lg:ml-28">
+            <div className="relative mt-6 flex-1">
               <span className="absolute inset-y-0 flex items-center pl-3">
-                <img src={EmailIcon} alt="email icom" />
+                <img src={EmailIcon} alt="email icon" />
               </span>
               <input
                 type="text"
