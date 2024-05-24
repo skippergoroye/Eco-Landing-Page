@@ -3,10 +3,10 @@ import EmailSend from "../assets/SVG/email-send.svg";
 
 export default function Subscribe() {
   return (
-    <section className="relative z-10 flex items-center justify-center bg-white mt-36 lg:mt-40">
+    <section className="relative z-10 flex items-center justify-center bg-white mt-[150px] lg:mt-60">
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="relative text-center w-full lg:w-[716px] p-4 sm:p-6  bg-white rounded-xl border border-black-500 shadow-2xl">
-          <h2 className="text-lg sm:text-xl font-semibold mb-2 mt-8">
+        <div className="relative w-full lg:w-[716px] p-4 sm:p-6  bg-white rounded-xl border border-black-500 shadow-3xl text-center">
+          <h2 className="text-lg sm:text-xl font-semibold mb-2 mt-4">
             Subscribe to get News and Updates
           </h2>
           <p className="text-sm sm:text-base text-gray-700 lg:w-[620px]">
