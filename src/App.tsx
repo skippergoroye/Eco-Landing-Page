@@ -1,4 +1,4 @@
-import { Footer, Navbar, Faqs,  ComingSoon, Hero, Org, Subscribe } from "./sections/Index";
+import { Footer, ComingSoon,  Org, Subscribe } from "./sections/Index";
 
 function App() {
   return (
