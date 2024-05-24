@@ -15,7 +15,7 @@ export default function OrgCard({
 }: OrgCardProps) {
   return (
     <div
-      className="flex-1 rounded-[20px] shadow-3xl w-[350px] lg:w-[300px] h-[380px] py-4 px-6 bg-gray-100"
+      className="flex-1 rounded-[20px] shadow-3xl w-[350px] py-4 px-6 bg-gray-100"
       style={{ backgroundColor: imgBgColor }}
     >
       <div className="mt-2"> 

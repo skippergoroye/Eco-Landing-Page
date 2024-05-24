@@ -14,7 +14,7 @@ export default function Footer() {
             <li>iPALs</li>
             <li>Innovation</li>
           </ul>
-          <Button content="Create Account" />
+          <Button content="Create Account" variant="p-2" />
         </div>
         <div className="mt-6 mb-6">
           <ul className="flex gap-14 items-center">

@@ -1,8 +1,9 @@
-import { Footer, ComingSoon,  Org, Subscribe } from "./sections/Index";
+import { Footer, ComingSoon,  Org, Subscribe, Hero } from "./sections/Index";
 
 function App() {
   return (
     <>
+      <Hero />
       <Org />
       <ComingSoon />
       <Subscribe />
