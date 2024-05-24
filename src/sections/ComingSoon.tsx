@@ -10,11 +10,11 @@ export default function ComingSoon() {
         <div className="w-1/2 mt-2">
           <img
             src={commingSoonMobile}
-            className="h-[30rem] absolute top-[-3rem] ml-[20px] lg:ml-[200px]"
+            className="h-[30rem] absolute top-[-3rem] ml-[20px] md:ml-[50px] lg:ml-[200px]"
           />
         </div>
 
-        <div className="w-1/2 mt-[430px] lg:mt-4 px-8 lg:px-0">
+        <div className="w-1/2 mt-[430px] md:mt-[10px] lg:mt-4 px-8 lg:px-0">
           <div className="w-[316px]">
             <h2 className="text-white text-[32px] font-medium">PALs Apps</h2>
             <h3 className="text-[#32D272] text-[32px] font-bold">Coming Soon!</h3>
