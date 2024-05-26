@@ -30,7 +30,7 @@ export default function Faqs() {
         </div>
         <div className="h-max flex flex-col mt-10 gap-4 ">
           {FAQs.map((item, index) => (
-            <div className="border  border-[#495961] rounded-lg w-[1080px] px-4">
+            <div className="border  border-[#495961] rounded-lg w-[1100px] px-4">
               <div onClick={() => togglerFunction(index)} className="px-5 py-4 flex items-center justify-between">
                 <p className="flex-1">{item.title}</p>
                 <p>
