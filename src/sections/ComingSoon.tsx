@@ -5,8 +5,8 @@ import Button from "../components/Button";
 
 export default function ComingSoon() {
   return (
-    <section className="mx-auto max-w-[1440px] px-8 lg:px-16 relative">
-      <div className="bg-[#273238] lg:h-[400px] flex flex-col md:flex-row py-8">
+    <section className="mx-auto max-w-[1082px] px-8 lg:px-16 relative">
+      <div className="bg-[#273238] lg:h-[400px] flex flex-col md:flex-row py-8 max-w-[989px]">
         <div className="w-1/2 mt-2">
           <img
             src={commingSoonMobile}
