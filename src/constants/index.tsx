@@ -1,8 +1,10 @@
+// import { organization } from "../assets/SVG";
+
 
 export const ORGANIZATIONS = [
   {
     title: "Environment",
-    imgUrl: "src/assets/SVG/organization.svg",
+    imgUrl: "src/assets/SVG/environment.svg",
     imgBgColor: "#EEFCF4",
     imgBg: "src/assets/SVG/organization-bg.svg",
     description:

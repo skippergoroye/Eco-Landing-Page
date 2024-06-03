@@ -3,8 +3,8 @@ import { ChevronDown  } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <section className="px-8 lg:px-16 py-12 mx-auto max-w-[144opx]">
-      <div className="bg-white rounded-lg shadow-3xl border z-10 border-blu">
+    <section className="px-8 lg:px-16 py-12 mx-auto w-full fixed  z-50">
+      <div className="bg-white rounded-lg shadow-3xl border z-10">
         <div className="lg:ml-8 ml-2 flex items-center justify-start lg:gap-6 gap-1">
           <img src={NavLogo} />
           <div className="flex items-center justify-center">
@@ -20,5 +20,6 @@ export default function Navbar() {
       </div>
 
     </section>
+   
   )
 }
