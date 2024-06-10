@@ -5,7 +5,7 @@ import { ORGANIZATIONS } from "../constants";
 
 export default function Org() {
   return (
-    <section className="mx-auto max-w-[1440px] sm:px-16 px-8 sm:py-24 py-12 flex flex-col justify-center gap-10">
+    <section className="mx-auto max-w-[1440px] sm:px-16 px-8 sm:py-40 py-12 flex flex-col justify-center gap-10">
       <div className="flex flex-col items-center justify-center text-center">
         <h2 className="text-[32px]">Welcome to THE ECO</h2>
         <div className="flex flex-col items-center justify-center text-center mt-2">
