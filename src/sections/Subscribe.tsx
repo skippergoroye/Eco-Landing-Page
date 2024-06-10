@@ -26,7 +26,7 @@ export default function Subscribe() {
               />
             </div>
             <div className="mt-5 w-10">
-              <img src={EmailSend} alt="email icon" />
+              <img src={EmailSend} alt="email icon" className="cursor-pointer" />
             </div>
           </div>
         </div>
