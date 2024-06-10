@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
       <Org />
       <ComingSoon />
       <Faqs />
