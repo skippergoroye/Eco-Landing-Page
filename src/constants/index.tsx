@@ -1,10 +1,15 @@
-// import { organization } from "../assets/SVG";
+import environment from "../assets/SVG/environment.svg";
+import community from "../assets/SVG/Community.svg";
+import organization from "../assets/SVG/Organization.svg";
+import facebook from "../assets/SVG/facebook.svg";
+import twitter from "../assets/SVG/twitter.svg";
+import linkedin from "../assets/SVG/linkedin.svg"
 
 
 export const ORGANIZATIONS = [
   {
     title: "Environment",
-    imgUrl: "src/assets/SVG/environment.svg",
+    imgUrl: environment,
     imgBgColor: "#EEFCF4",
     imgBg: "src/assets/SVG/organization-bg.svg",
     description:
@@ -12,7 +17,7 @@ export const ORGANIZATIONS = [
   },
   {
     title: "Community",
-    imgUrl: "src/assets/SVG/community.svg",
+    imgUrl: community,
     imgBgColor: "#F1FAFE",
     imgBg: "src/assets/SVG/community-bg.svg",
     description:
@@ -20,7 +25,7 @@ export const ORGANIZATIONS = [
   },
   {
     title: "Environment",
-    imgUrl: "src/assets/SVG/organization.svg",
+    imgUrl: organization,
     imgBgColor: "#FFF3ED",
     imgBg: "src/assets/SVG/organization-bg.svg",
     description:
@@ -30,9 +35,9 @@ export const ORGANIZATIONS = [
 
 export const SOCIALS = {
   links: [
-    "src/assets/SVG/facebook.svg",
-    "src/assets/SVG/twitter.svg",
-    "src/assets/SVG/linkedin.svg",
+    facebook,
+    twitter,
+    linkedin,
   ],
 };
 
