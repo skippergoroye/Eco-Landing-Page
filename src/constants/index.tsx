@@ -1,9 +1,10 @@
-import environment from "../assets/SVG/environment.svg";
-import community from "../assets/SVG/Community.svg";
-import organization from "../assets/SVG/Organization.svg";
+import environment from "../assets/environment.svg";
+import community from "../assets/Community.svg";
+import organization from "../assets/Organization.svg";
 import facebook from "../assets/SVG/facebook.svg";
 import twitter from "../assets/SVG/twitter.svg";
 import linkedin from "../assets/SVG/linkedin.svg"
+
 
 
 export const ORGANIZATIONS = [
